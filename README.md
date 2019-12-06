@@ -25,7 +25,7 @@ const data = parseByString(content)
 ## output
 ```javascript
 [{
-	"name": "chrome",
+    "name": "chrome",
     "type": "folder",
     "href": "",
     "icon": "",
