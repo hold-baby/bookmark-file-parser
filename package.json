@@ -1,6 +1,6 @@
 {
   "name": "bookmark-file-parser",
-  "version": "0.12.0",
+  "version": "0.12.5",
   "description": "Parse Firefox/Chrome/IE/Safari HTML bookmarks files",
   "main": "index.js",
   "directories": {
