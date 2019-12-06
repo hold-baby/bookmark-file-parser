@@ -1,0 +1,29 @@
+{
+  "name": "bookmark-file-parser",
+  "version": "0.12.0",
+  "description": "Parse Firefox/Chrome/IE/Safari HTML bookmarks files",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hold-baby/bookmark-file-parser.git"
+  },
+  "keywords": [
+    "bookmark",
+    "bookmark-parser"
+  ],
+  "author": "hold-baby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hold-baby/bookmark-file-parser/issues"
+  },
+  "homepage": "https://github.com/hold-baby/bookmark-file-parser#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
