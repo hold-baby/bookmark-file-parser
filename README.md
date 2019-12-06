@@ -2,7 +2,7 @@
 Parse Firefox/Chrome/IE/Safari HTML bookmarks files
 
 ## install
-```node
+```cmd
 npm i bookmark-file-parser -S
 ```
 ## use
