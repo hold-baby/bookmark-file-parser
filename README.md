@@ -1,6 +1,10 @@
 # bookmark-file-parser
 Parse Firefox/Chrome/IE/Safari HTML bookmarks files
 
+## install
+```node
+npm i bookmark-file-parser -S
+```
 ## use
 ```javascript
 const parseByPath = require("bookmark-file-parser").parseByPath
@@ -9,7 +13,7 @@ const dirname = "./chrome.html"
 const data = parseByPath(dirname)
 
 ```
-or
+##### or
 ```javascript
 const fs = require("fs")
 const parseByString = require("bookmark-file-parser").parseByString
