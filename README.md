@@ -7,20 +7,15 @@ npm i bookmark-file-parser -S
 ```
 ## use
 ```javascript
-const parseByPath = require("bookmark-file-parser").parseByPath
+import { parseByPath, parseByString } from "bookmark-file-parser"
+import { readFileSync } from "fs"
 
 const dirname = "./chrome.html"
-const data = parseByPath(dirname)
 
-```
-##### or
-```javascript
-const fs = require("fs")
-const parseByString = require("bookmark-file-parser").parseByString
+const data1 = parseByPath(dirname)
 
-const dirname = "./chrome.html"
-const content = fs.readFileSync(dirname, "utf-8")
-const data = parseByString(content)
+const content = readFileSync(dirname, "utf-8")
+const data2 = parseByString(content)
 ```
 ## output
 ```javascript
